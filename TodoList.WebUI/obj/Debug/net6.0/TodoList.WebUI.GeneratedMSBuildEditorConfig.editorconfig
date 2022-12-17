@@ -9,61 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TodoList.WebUI
 build_property.RootNamespace = TodoList.WebUI
-build_property.ProjectDir = C:\Users\Олег\source\repos\Todo-list\TodoList.WebUI\
+build_property.ProjectDir = C:\Users\Олег\source\repos\Todo-list\Test-task-Todo-list\TodoList.WebUI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\Олег\source\repos\Todo-list\TodoList.WebUI
+build_property.MSBuildProjectDirectory = C:\Users\Олег\source\repos\Todo-list\Test-task-Todo-list\TodoList.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Олег/source/repos/Todo-list/TodoList.WebUI/Views/Home/Index.cshtml]
+[C:/Users/Олег/source/repos/Todo-list/Test-task-Todo-list/TodoList.WebUI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Олег/source/repos/Todo-list/TodoList.WebUI/Views/Notes/ArchivedList.cshtml]
+[C:/Users/Олег/source/repos/Todo-list/Test-task-Todo-list/TodoList.WebUI/Views/Notes/ArchivedList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZXNcQXJjaGl2ZWRMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Олег/source/repos/Todo-list/TodoList.WebUI/Views/Notes/Create.cshtml]
+[C:/Users/Олег/source/repos/Todo-list/Test-task-Todo-list/TodoList.WebUI/Views/Notes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Олег/source/repos/Todo-list/TodoList.WebUI/Views/Notes/DefaultList.cshtml]
+[C:/Users/Олег/source/repos/Todo-list/Test-task-Todo-list/TodoList.WebUI/Views/Notes/DefaultList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZXNcRGVmYXVsdExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Олег/source/repos/Todo-list/TodoList.WebUI/Views/Notes/Edit.cshtml]
+[C:/Users/Олег/source/repos/Todo-list/Test-task-Todo-list/TodoList.WebUI/Views/Notes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Олег/source/repos/Todo-list/TodoList.WebUI/Views/Notes/Index.cshtml]
+[C:/Users/Олег/source/repos/Todo-list/Test-task-Todo-list/TodoList.WebUI/Views/Notes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Олег/source/repos/Todo-list/TodoList.WebUI/Views/Notes/List.cshtml]
+[C:/Users/Олег/source/repos/Todo-list/Test-task-Todo-list/TodoList.WebUI/Views/Notes/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZXNcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Олег/source/repos/Todo-list/TodoList.WebUI/Views/Shared/Components/Type/Default.cshtml]
+[C:/Users/Олег/source/repos/Todo-list/Test-task-Todo-list/TodoList.WebUI/Views/Shared/Components/Type/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVHlwZVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Олег/source/repos/Todo-list/TodoList.WebUI/Views/Shared/Error.cshtml]
+[C:/Users/Олег/source/repos/Todo-list/Test-task-Todo-list/TodoList.WebUI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Олег/source/repos/Todo-list/TodoList.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Олег/source/repos/Todo-list/Test-task-Todo-list/TodoList.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Олег/source/repos/Todo-list/TodoList.WebUI/Views/_ViewImports.cshtml]
+[C:/Users/Олег/source/repos/Todo-list/Test-task-Todo-list/TodoList.WebUI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Олег/source/repos/Todo-list/TodoList.WebUI/Views/_ViewStart.cshtml]
+[C:/Users/Олег/source/repos/Todo-list/Test-task-Todo-list/TodoList.WebUI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Олег/source/repos/Todo-list/TodoList.WebUI/Views/Shared/_Layout.cshtml]
+[C:/Users/Олег/source/repos/Todo-list/Test-task-Todo-list/TodoList.WebUI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-w2y5d9ts8y

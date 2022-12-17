@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mViowwQ5YhRhomgn81vEUly8z035REf4/K9Damumcfe+QVGN1tNeqKeZKEWbja3aNvjnLp+cGv1o4POqItXwIg==",
+  "dgSpecHash": "ZpBk2cpZs+3WZtZC9h5xcLgJMFg4IlCebidMGfnY8E59T8yq37mBBGI7tY/8jRav43BenEUeV/zHBJmo650hrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Олег\\source\\repos\\Todo-list\\TodoList.WebUI\\TodoList.WebUI.csproj",
+  "projectFilePath": "C:\\Users\\Олег\\source\\repos\\Todo-list\\Test-task-Todo-list\\TodoList.WebUI\\TodoList.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Олег\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Олег\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

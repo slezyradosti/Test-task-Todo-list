@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TsvScvGXLy65xPYx4mDM3vTE90X9bNIvpPRJmnp0SCL0OF1S1iE+Zxvzx1pLYG1vSM1E4X0bUUn9DDs/nwStUA==",
+  "dgSpecHash": "awiQXdH1tKHq1+f4427ilDdLW8msrUwav642oCiD0xOPxiGjptN1w9f+nzn9KEL9H4ZO7CHLxfki2E7yYERa6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Олег\\source\\repos\\Todo-list\\Persistence\\Persistence.csproj",
+  "projectFilePath": "C:\\Users\\Олег\\source\\repos\\Todo-list\\Test-task-Todo-list\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Олег\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Олег\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.1\\microsoft.data.sqlite.core.7.0.1.nupkg.sha512",

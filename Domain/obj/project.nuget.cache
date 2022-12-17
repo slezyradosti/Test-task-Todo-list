@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1NDsoCQ3JY4WSha8410Z4iCAPTZyA8gkeLL9htMg27Un6jXOkSHYPaeOjbACp+LB2shbkxdR+w9qkmOixO+NCA==",
+  "dgSpecHash": "q8AMwnnj8c6ogxUq09PNBfKnFIM0Z+g6R+beNSQjt79uA7IOdvy96Z0HSAnk6Jp47cRObYxXq/gmVR8O7ZH3KQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Олег\\source\\repos\\Todo-list\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\Олег\\source\\repos\\Todo-list\\Test-task-Todo-list\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Олег\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.1\\microsoft.data.sqlite.core.7.0.1.nupkg.sha512",
     "C:\\Users\\Олег\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.1\\microsoft.entityframeworkcore.7.0.1.nupkg.sha512",

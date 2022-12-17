@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JdpZ5ivWaded/vDL2Drp30igGtlmRlCuI1HuNYsahTBNRe65vvv6eKXE+Gi35UK95N1rLewawy9x+hD1V/AMBA==",
+  "dgSpecHash": "wss9qg4Jj2rvIkMUulWIlWBLTzBhYBtxJFl6T/IQdAfxNib7kuJPGx9Xd7SKXhen9rBvkgXCr4dvLL3Hn7180A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Олег\\source\\repos\\Todo-list\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\Олег\\source\\repos\\Todo-list\\Test-task-Todo-list\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Олег\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Олег\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
