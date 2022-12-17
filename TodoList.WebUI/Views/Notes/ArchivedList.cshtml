@@ -1,0 +1,68 @@
+﻿@using Domain.EntityModels;
+@using ReflectionIT.Mvc.Paging
+@model ReflectionIT.Mvc.Paging.PagingList<Notes>
+@addTagHelper *, ReflectionIT.Mvc.Paging
+
+<nav class="pagination">
+	<vc:pager paging-list="@Model" paging-action="ArchivedList" />
+</nav>
+
+<div class="container p-3">
+	<ol start="@ViewBag.listCount">
+		@{
+			int counter = 1;
+		}
+		@foreach (var obj in Model)
+		{
+			<div id="li">
+				<div class="container p-6">
+			<li>
+				<input asp-for="@obj.Id" hidden />
+				<input asp-for="@obj.Timestamp" hidden />
+				<div class="grid">
+					<div class="segments">
+						<div class="segment">
+							<button id="myCheckBox" asp-for=@obj.isChecked name="check" disabled><i id="CBisChecked@(counter)"></i></button>
+							<span class="segment" id="isChecked@(counter++)">@obj.Note</span>
+						</div>
+						<div class="segment">
+							@obj.Date.ToShortDateString()
+						</div>
+						<div class="segmentbtn">
+						<form method="post">
+							<button type="submit" asp-action="Delete" formmethod="post" asp-route-id="@obj.Id"
+								asp-route-listName="@ViewBag.listName" class="btn btn-delete mx-2" style="width:100px">
+								Delete
+							</button>
+
+							<button  type="submit" asp-action="Archive" formmethod="post" asp-route-id="@obj.Id"
+									asp-route-listName="@ViewBag.listName" class="btn btn-archive mx-2" style="width:100px">
+								Unarchive
+							</button>
+						</form>
+						</div>
+					</div>
+				</div>
+					<script >				
+						//checkElement('@obj.isChecked', 'isChecked@(counter - 1)');
+
+								if ('@obj.isChecked' == "True") {
+								document.getElementById('isChecked@(counter - 1)').classList.add("checked");
+								document.getElementById('CBisChecked@(counter - 1)').className = "bi bi-toggle2-on";
+								}
+								else {
+								document.getElementById('isChecked@(counter - 1)').classList.remove("checked");
+								document.getElementById('CBisChecked@(counter - 1)').className = "bi bi-toggle2-off";
+								}						
+						</script>
+			</li>
+	</div>
+	</div>
+		}
+	</ol>
+
+</div>
+
+<nav class="pagination">
+	<vc:pager paging-list="@Model" />
+</nav>

@@ -1,0 +1,21 @@
+﻿@using Domain.EntityModels;
+@model IEnumerable<Domain.EntityModels.Type>
+
+<tbody>
+
+    @{
+        var ModelList = Model.ToList().Where(t => t.TypeName != "Default");
+        var DefaultModel = @Model.First(t => t.TypeName == "Default");
+    }
+    <a asp-controller="Notes" asp-action="Index" asp-route-typeName="@DefaultModel.TypeName" class="dropdown-item">
+        @DefaultModel.TypeName
+    </a>
+    <div class="dropdown-divider"></div>
+
+    @foreach (var item in ModelList)
+    {
+        <a asp-controller="Notes" asp-action="Index" asp-route-typeName="@item.TypeName" class="dropdown-item">
+            @item.TypeName
+         </a>
+    }
+</tbody>

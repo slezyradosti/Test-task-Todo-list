@@ -1,0 +1,71 @@
+.checked {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+#myCheckBox {
+    outline: none; /* Для синий ободки */
+    border: 0;
+    background: transparent;
+    margin: 5px;
+}
+
+#li {
+    margin: 20px;
+    margin-right: 15px;
+    border: 1px solid #000;
+    padding-left: 10px;
+    padding-left: 15px;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+
+ol #li:nth-child(2n) {
+    background: #F2F2F2;
+}
+
+ol #li:nth-child(odd) {
+    background: #E3E3E3;
+}
+
+.segment {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.segmentbtn {
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.btn-edit {
+    background: #89C331;
+    color: #fff;
+}
+
+.btn-delete {
+    background: #F04A56;
+    color: #fff;
+}
+
+.btn-archive {
+    background: #20807C;
+    color: #fff;
+}
+
+.btn-edit:hover {
+    background: #79B027;
+}
+
+.btn-delete:hover {
+    background: #DF3A46;
+}
+
+.btn-archive:hover {
+    background: #16736F;
+}
+
+#bgChange {
+    background: #F5F5F5;
+}

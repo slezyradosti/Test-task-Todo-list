@@ -1,0 +1,39 @@
+﻿@using Domain.EntityModels;
+@model Notes
+
+<div class="container p-3">
+    <form method="post">
+        <input asp-for="Id" hidden />
+        <input asp-for="Timestamp" hidden />
+        <input asp-for="Date" hidden />
+        <input asp-for="TypeId" hidden />
+        <div class="border p-3 mt-4" id="bgChange">
+            <div class="row pb-2">
+                <h2 class="text-primary">Edit Note</h2>
+                <hr />
+            </div>
+            <div class="mb-3">
+                <input asp-for="isChecked" class="form-contorl" />
+                <label asp-for="isChecked"></label>
+                <span asp-validation-for="isChecked" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <p><label asp-for="Note"></label></p>
+                <input asp-for="Note" class="form-contorl" />
+                <span asp-validation-for="Note" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-success" style="width:150px" asp-route-listName="@ViewBag.listName">
+                Update
+            </button>
+            <a asp-controller="Notes" asp-action="@ViewBag.listName" class="btn btn-secondary" style="width:150px">
+                Back to List
+            </a>
+        </div>
+    </form>
+</div>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
