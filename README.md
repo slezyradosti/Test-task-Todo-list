@@ -7,6 +7,7 @@
 <li>Archive note</li>
 <li>Pagination and lists</li>
 </ul>
+
 # Database Digram
 
 ![](https://github.com/slezyradosti/Test-task-Todo-list/blob/main/picturesOfTheApp/dbDiagram.png)
