@@ -1,5 +1,12 @@
 # Test-task-Todo-list
 
+# Features
+<ul>
+<li>Add/Edit/Delete notes</li>
+<li>Mark note as done</li>
+<li>Archive note</li>
+<li>Pagination and lists</li>
+</ul>
 # Database Digram
 
 ![](https://github.com/slezyradosti/Test-task-Todo-list/blob/main/picturesOfTheApp/dbDiagram.png)
