@@ -2,7 +2,7 @@
 
 # Features
 <ul>
-<li>Add/Edit/Delete notes</li>
+<li>Add/Edit/Delete note</li>
 <li>Mark note as done</li>
 <li>Archive note</li>
 <li>Pagination and lists</li>
